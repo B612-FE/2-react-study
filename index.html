@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>3-vanilla-js</title>
+        <title>TODO LIST</title>
         <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
-        <div class="container">과제 파이팅!</div>
+        <div class="container">
+            <div class="todo_title">
+                <h1>TODO LIST</h1>
+            </div>
+            <form class="todo_body">
+                <input type="text" class="todo_input" placeholder="𖤐 ⋆ ࣪ . ( what2do ) 🫧 ゛" onkeypress="handleSubmit(event)">
+            </form>
+                <ul class="todo_list"></ul>
+                <ul class="todo_done"></ul>
+            </div>
+        </div>
     </body>
     <script src="script.js"></script>
 </html>
