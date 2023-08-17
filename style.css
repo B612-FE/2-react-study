@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'MabinogiClassicR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F2EBE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin: 60px;
+    padding: 10px;
+    width: 450px;
+    background-color: #647295;
+    border-radius: 20px;
+}
+
+/* HEADER */
+.todo_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css';
+    font-size: 25px;
+    color: #F2EBE5;
+    -webkit-text-stroke: 3px #F2EBE5;
+}
+
+/* BODY */
+.todo_body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.todo_input {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 20px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px;
+}
+
+input[type="text"] {
+    height: 100%;
+    width: 100%;
+    font-family: 'MabinogiClassicR';
+    font-size: 20px;
+}
+
+::placeholder {
+    font-family: 'MabinogiClassicR';
+    font-size: 20px;
+}
+
+/* LIST */
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+
+    font-family: 'MabinogiClassicR';
+    font-size: 20px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    min-height: 20vh;
+
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    margin-top: 3px;
+}
+
+/* BUTTON */
+button {
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.delete_button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.done {
+    color: gray;
+    text-decoration: line-through;
+  }
