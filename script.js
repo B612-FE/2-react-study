@@ -77,7 +77,4 @@ const handleClick = (event) => {
     todoInput.value = "";
   }
 };
-
-//삭제 버튼 클릭하는 경우 실행
-
 todoButton.addEventListener("click", handleClick);
