@@ -8,7 +8,23 @@
     </head>
 
     <body>
-        <div class="container">과제 파이팅!</div>
+        <div class = 'content-container'>
+            <div class="form-container">
+                <h1>Things to do</h1>
+                <form id = 'todo-form'>
+                    <input id= 'todo-input' type="text" placeholder="할 일을 입력하세요" required />
+                    <input id = 'todo-button' type = 'submit' value = '추가'/>
+            </div>
+            <section class="todoList">
+                <h2>To do</h2>
+                <ul id = 'todo-list'></ul>
+            </section>
+            <section class="doneList">
+                <h2>Done</h2>
+                <ul id = 'done-list'></ul>
+            </section>
+        </div>
+        
     </body>
     <script src="script.js"></script>
 </html>
