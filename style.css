@@ -8,7 +8,7 @@ body{
 	padding: 10px;
 	margin: 50px auto;
 }
-.addTask{
+.add-text{
 	width: 100%;
 	display: flex;
 	padding: 10px 0;
@@ -25,7 +25,6 @@ input{
 	background: #222;
 	color: #fff;
 	font-size: 18px;
-	text-transform: uppercase;
 	padding: 10px;
 	border: none;
 	outline: none;
