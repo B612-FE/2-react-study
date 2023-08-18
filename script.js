@@ -5,7 +5,6 @@ const doneList = document.querySelector(".js-doneList");
 const btn = document.querySelector("button");
 
 const TODO_CN = "todo";
-
 const TODO_LS = "toDos";
 const DONE_LS = "dones";
 let toDos = [];
@@ -57,17 +56,15 @@ function handleDelete(event) {
       return toDo.id !== parseInt(li.id);
     });
     toDos = cleanToDos;
-    saveToDos();
-    saveDones();
   } else {
     doneList.removeChild(li);
     const cleanDones = dones.filter(function (done) {
       return done.id !== parseInt(li.id);
     });
     dones = cleanDones;
-    saveDones();
-    saveToDos();
   }
+    saveToDos();
+    saveDones();
 }
 
 function paintToDo(text) {
