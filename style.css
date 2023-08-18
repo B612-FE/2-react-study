@@ -1,0 +1,61 @@
+body{
+	height: 100%;
+	background-color: blanchedalmond;
+}
+.container{
+	position: relative;
+	max-width: 800px;
+	padding: 10px;
+	margin: 50px auto;
+}
+.add-text{
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+}
+input{
+	width: 90%;
+	color: #333;
+	padding: 10px;
+	font-size: 22px;
+}
+
+.add-text button{
+	margin: 0 10px;
+	background: #222;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.todo-list, .done-list{
+	margin: 5px 0;
+	padding: 20px;
+}
+h2{
+	font-size: 28px;
+	text-align: center;
+	color: black;
+}
+
+ol li{
+	width: 100%;
+	padding: 18px;
+	margin: 5px 0;
+	background: aquamarine;
+	font-size: 22px;
+}
+
+li button{
+	float: right;
+	padding: 3px;
+	font-size: 28px;
+	line-height: 28px;
+	margin-right: 10px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
