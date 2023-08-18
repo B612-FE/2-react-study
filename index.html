@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>3-vanilla-js</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todooo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <body>
-        <div class="container">과제 파이팅!</div>
-    </body>
-    <script src="script.js"></script>
+  <body>
+    <div class="container">
+      <h4>Things to do</h4>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="📍Enter your to-do" />
+        <button>+</button>
+      </form>
+      <p>📁to do</p>
+      <ul class="js-toDoList todo" id="toDoList"></ul>
+      <p>🗑️done</p>
+      <ul class="js-doneList" id="doneList"></ul>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>

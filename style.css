@@ -1,0 +1,32 @@
+body {
+  background-color: hsl(311, 15%, 79%);
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  box-shadow: 5px 5px 5px 5px #dfe4ea;
+}
+button {
+  border: none;
+  background-color: white;
+}
+input {
+  border: none;
+  background-color: #dfe4ea;
+  outline: none;
+  border-radius: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.js-doneList {
+  text-decoration: line-through;
+}
