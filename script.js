@@ -17,7 +17,7 @@ function saveDones() {
   localStorage.setItem(DONE_LS, JSON.stringify(dones));
 }
 
-function doneTo(event) {
+function doneTo(event) { //토글 id 이상 수정 필요..!
   const span = event.target;
   const li = span.parentNode;
   doneList.removeChild(li); //html에서 todo지우고
